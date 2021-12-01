@@ -33,7 +33,7 @@ public class MovementController : MonoBehaviour
     }
     private void Movement()
     {
-        rb.velocity = new Vector2()
+        rb.velocity = new Vector2(horiMovementdirection*horiMovespeed,vertMovementdirection*vertMovespeed);
     }
     private void processInputs()
     {
