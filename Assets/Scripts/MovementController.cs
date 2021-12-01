@@ -11,7 +11,7 @@ public class MovementController : MonoBehaviour
 
     private Rigidbody2D rb;
     private bool activeCharactercar = false;
-    private bool activeCharacterkong = false;
+    private bool activeCharacterkong = true;
     private bool activeCharacterkiller = false;
     private float vertMovementdirection = 0;
     private float horiMovementdirection = 0;
@@ -43,7 +43,7 @@ public class MovementController : MonoBehaviour
         //kong movement
         if (activeCharacterkong == true)
         {
-            rb.velocity = new Vector2(horiMovementdirection * horiMovespeed, 0);
+            rb.velocity = new Vector2(0, vertMovementdirection * vertMovespeed);
         }
 
         //killer movement
