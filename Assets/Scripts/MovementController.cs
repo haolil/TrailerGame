@@ -18,6 +18,7 @@ public class MovementController : MonoBehaviour
 
     private void Awake()
     {
+        
         //grab the current rigid body that the script is attached to
         rb = GetComponent<Rigidbody2D>();
     }
@@ -33,7 +34,23 @@ public class MovementController : MonoBehaviour
     }
     private void Movement()
     {
-        rb.velocity = new Vector2(horiMovementdirection*horiMovespeed,vertMovementdirection*vertMovespeed);
+        //car movement
+        if (activeCharactercar == true)
+        {
+            rb.velocity = new Vector2(horiMovementdirection * horiMovespeed, vertMovementdirection * vertMovespeed);
+        }
+
+        //kong movement
+        if (activeCharacterkong == true)
+        {
+            rb.velocity = new Vector2(horiMovementdirection * horiMovespeed, 0);
+        }
+
+        //killer movement
+        if (activeCharacterkiller == true)
+        {
+            rb.velocity = new Vector2(horiMovementdirection * horiMovespeed, vertMovementdirection * vertMovespeed);
+        }
     }
     private void processInputs()
     {
