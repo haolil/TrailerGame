@@ -5,7 +5,8 @@ using UnityEngine;
 
 public class MovementController : MonoBehaviour
 {
-    public float moveSpeed = 5;
+    public float vertMovespeed = 5;
+    public float horiMovespeed = 5;
     public float Jumpheight = 4000;
 
     private Rigidbody2D rb;
@@ -32,7 +33,7 @@ public class MovementController : MonoBehaviour
     }
     private void Movement()
     {
-        
+        rb.velocity = new Vector2()
     }
     private void processInputs()
     {
