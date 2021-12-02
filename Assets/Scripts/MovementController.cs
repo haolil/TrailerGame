@@ -8,8 +8,10 @@ public class MovementController : MonoBehaviour
     public float vertMovespeed = 5;
     public float horiMovespeed = 5;
     public float Jumpheight = 4000;
+    public GameObject currentPlayerobject = null;
 
     private Rigidbody2D rb;
+
     private bool activeCharactercar = false;
     private bool activeCharacterkong = false;
     private bool activeCharacterkiller = false;
@@ -21,6 +23,10 @@ public class MovementController : MonoBehaviour
         
         //grab the current rigid body that the script is attached to
         rb = GetComponent<Rigidbody2D>();
+        if(currentPlayerobject.name == "car")
+        {
+            activeCharactercar = true;
+        }
     }
     // Update is called once per frame
     void Update()
