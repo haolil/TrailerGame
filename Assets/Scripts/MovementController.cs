@@ -46,7 +46,7 @@ public class MovementController : MonoBehaviour
         if(activeCharacterkong == true)
         {
             //disabled unless otherwise told to activate
-           // Animate();
+           //Animate();
         }
        
     }
