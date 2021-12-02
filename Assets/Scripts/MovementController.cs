@@ -15,6 +15,7 @@ public class MovementController : MonoBehaviour
     private bool activeCharactercar = false;
     private bool activeCharacterkong = false;
     private bool activeCharacterkiller = false;
+    private bool facingRight = true;
     private float vertMovementdirection = 0;
     private float horiMovementdirection = 0;
 
@@ -40,6 +41,11 @@ public class MovementController : MonoBehaviour
     void Update()
     {
         processInputs();
+        //only animate when kong is out
+        if(activeCharacterkong == true)
+        {
+           // Animate();
+        }
        
     }
     private void FixedUpdate()
@@ -70,5 +76,23 @@ public class MovementController : MonoBehaviour
     {
         horiMovementdirection = Input.GetAxis("Horizontal");
         vertMovementdirection = Input.GetAxis("Vertical");
+    }
+
+    private void Animate()
+    {
+        if (horiMovementdirection > 0 && !facingRight)
+        {
+            flipCharacter();
+        }
+        else if (horiMovementdirection < 0 && facingRight)
+        {
+            flipCharacter();
+        }
+    }
+
+    private void flipCharacter()
+    {
+        facingRight = !facingRight;
+        transform.Rotate(0f, 180f, 0f);
     }
 }
