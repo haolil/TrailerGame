@@ -27,6 +27,14 @@ public class MovementController : MonoBehaviour
         {
             activeCharactercar = true;
         }
+        if (currentPlayerobject.name == "kong")
+        {
+            activeCharacterkong = true;
+        }
+        if (currentPlayerobject.name == "killer")
+        {
+            activeCharacterkiller = true;
+        }
     }
     // Update is called once per frame
     void Update()
