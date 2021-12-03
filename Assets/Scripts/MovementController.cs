@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 
 public class MovementController : MonoBehaviour
@@ -9,6 +10,7 @@ public class MovementController : MonoBehaviour
     public float horiMovespeed = 5;
     public float Jumpheight = 4000;
     public GameObject currentPlayerobject = null;
+    public Animator kongAnimator = null;
 
     private Rigidbody2D rb;
 
@@ -18,6 +20,7 @@ public class MovementController : MonoBehaviour
     private bool facingRight = true;
     private float vertMovementdirection = 0;
     private float horiMovementdirection = 0;
+    private float animatorSpeed = 0;
 
     private void Awake()
     {
@@ -29,11 +32,11 @@ public class MovementController : MonoBehaviour
         {
             activeCharactercar = true;
         }
-        if (currentPlayerobject.name == "kong")
+        if(currentPlayerobject.name == "kong")
         {
             activeCharacterkong = true;
         }
-        if (currentPlayerobject.name == "killer")
+        if(currentPlayerobject.name == "killer")
         {
             activeCharacterkiller = true;
         }
@@ -41,12 +44,14 @@ public class MovementController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        animatorSpeed = Math.Abs(vertMovementdirection);
+        kongAnimator.SetFloat("Speed", animatorSpeed);
         processInputs();
         //only animate when kong is out
         if(activeCharacterkong == true)
         {
-            //disabled unless otherwise told to activate
-           //Animate();
+         //disabled unless otherwise told to activate
+           Animate();
         }
        
     }
