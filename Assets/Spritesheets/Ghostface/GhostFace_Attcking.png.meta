@@ -1,19 +1,16 @@
 fileFormatVersion: 2
-guid: 9a58664bc177b8b4dad8d8d8b5848136
+guid: 732e5bb4be108864ab61f708816f34f3
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -98586362476649477
-    second: Kong ClimbingBack_0
+      213: 8737016883590049375
+    second: GhostFace_Attcking_0
   - first:
-      213: 6531691656605545636
-    second: Kong ClimbingBack_1
+      213: 4435156475296650247
+    second: GhostFace_Attcking_2
   - first:
-      213: -2579772667185726019
-    second: Kong ClimbingBack_2
-  - first:
-      213: 6863468152076967920
-    second: Kong ClimbingBack_3
+      213: -2660654066873172363
+    second: GhostFace_Attcking_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -127,13 +124,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kong ClimbingBack_0
+      name: GhostFace_Attcking_0
       rect:
         serializedVersion: 2
-        x: 252
-        y: 896
-        width: 378
-        height: 490
+        x: 0
+        y: 320
+        width: 171
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,20 +138,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf3a1e4c930c1aef0800000000000000
-      internalID: -98586362476649477
+      spriteID: f5ea9fe909e104970800000000000000
+      internalID: 8737016883590049375
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kong ClimbingBack_1
+      name: GhostFace_Attcking_2
       rect:
         serializedVersion: 2
-        x: 1050
-        y: 896
-        width: 476
-        height: 448
+        x: 170
+        y: 320
+        width: 170
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +159,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4a43b5e84fa35aa50800000000000000
-      internalID: 6531691656605545636
+      spriteID: 7049459d057dc8d30800000000000000
+      internalID: 4435156475296650247
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kong ClimbingBack_2
+      name: GhostFace_Attcking_1
       rect:
         serializedVersion: 2
-        x: 140
+        x: 0
         y: 0
-        width: 490
-        height: 448
+        width: 170
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,29 +180,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dbdf12b6d6ec23cd0800000000000000
-      internalID: -2579772667185726019
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kong ClimbingBack_3
-      rect:
-        serializedVersion: 2
-        x: 1148
-        y: 0
-        width: 378
-        height: 448
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0ff11cb8befef3f50800000000000000
-      internalID: 6863468152076967920
+      spriteID: 57e73d11935731bd0800000000000000
+      internalID: -2660654066873172363
       vertices: []
       indices: 
       edges: []
