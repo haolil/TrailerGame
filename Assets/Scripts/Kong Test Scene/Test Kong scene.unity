@@ -243,6 +243,7 @@ MonoBehaviour:
   horiMovespeed: 5
   Jumpheight: 4000
   currentPlayerobject: {fileID: 887301149}
+  kongAnimator: {fileID: 887301152}
 --- !u!50 &887301154
 Rigidbody2D:
   serializedVersion: 4
