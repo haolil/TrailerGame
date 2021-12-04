@@ -1,19 +1,7 @@
 fileFormatVersion: 2
-guid: 9a58664bc177b8b4dad8d8d8b5848136
+guid: c365fe98405fc0a419ae549f043d1907
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: -98586362476649477
-    second: Kong ClimbingBack_0
-  - first:
-      213: 6531691656605545636
-    second: Kong ClimbingBack_1
-  - first:
-      213: -2579772667185726019
-    second: Kong ClimbingBack_2
-  - first:
-      213: 6863468152076967920
-    second: Kong ClimbingBack_3
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -53,13 +41,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 0, y: 28, z: 0, w: 14}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -125,91 +113,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Kong ClimbingBack_0
-      rect:
-        serializedVersion: 2
-        x: 252
-        y: 896
-        width: 378
-        height: 490
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bf3a1e4c930c1aef0800000000000000
-      internalID: -98586362476649477
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kong ClimbingBack_1
-      rect:
-        serializedVersion: 2
-        x: 1050
-        y: 896
-        width: 476
-        height: 448
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4a43b5e84fa35aa50800000000000000
-      internalID: 6531691656605545636
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kong ClimbingBack_2
-      rect:
-        serializedVersion: 2
-        x: 140
-        y: 0
-        width: 490
-        height: 448
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbdf12b6d6ec23cd0800000000000000
-      internalID: -2579772667185726019
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Kong ClimbingBack_3
-      rect:
-        serializedVersion: 2
-        x: 1148
-        y: 0
-        width: 378
-        height: 448
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0ff11cb8befef3f50800000000000000
-      internalID: 6863468152076967920
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
