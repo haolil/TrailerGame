@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Kong_move_Animation
+  m_Name: Kong_attack_Animation
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,13 +20,9 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: -98586362476649477, guid: 9a58664bc177b8b4dad8d8d8b5848136, type: 3}
-    - time: 0.16666667
-      value: {fileID: 6531691656605545636, guid: 9a58664bc177b8b4dad8d8d8b5848136, type: 3}
+      value: {fileID: -6632906736947492648, guid: 9e93309faa4261149974ba15f4570cdb, type: 3}
     - time: 0.33333334
-      value: {fileID: -2579772667185726019, guid: 9a58664bc177b8b4dad8d8d8b5848136, type: 3}
-    - time: 0.5
-      value: {fileID: -98586362476649477, guid: 9a58664bc177b8b4dad8d8d8b5848136, type: 3}
+      value: {fileID: -304640474449937219, guid: 9e93309faa4261149974ba15f4570cdb, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -46,16 +42,14 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: -98586362476649477, guid: 9a58664bc177b8b4dad8d8d8b5848136, type: 3}
-    - {fileID: 6531691656605545636, guid: 9a58664bc177b8b4dad8d8d8b5848136, type: 3}
-    - {fileID: -2579772667185726019, guid: 9a58664bc177b8b4dad8d8d8b5848136, type: 3}
-    - {fileID: -98586362476649477, guid: 9a58664bc177b8b4dad8d8d8b5848136, type: 3}
+    - {fileID: -6632906736947492648, guid: 9e93309faa4261149974ba15f4570cdb, type: 3}
+    - {fileID: -304640474449937219, guid: 9e93309faa4261149974ba15f4570cdb, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.51666665
+    m_StopTime: 0.35000002
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
