@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5720027826022652985}
   - component: {fileID: 6352840002411823224}
   - component: {fileID: 719484894307173729}
+  - component: {fileID: 247256121184950593}
   m_Layer: 0
   m_Name: PlayerCar
   m_TagString: Untagged
@@ -129,3 +130,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3, y: 1.5}
   m_EdgeRadius: 0
+--- !u!114 &247256121184950593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5952475772114225660}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24e70ee39610a3a4a90989057da5d425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vertMovespeed: 5
+  horiMovespeed: 5
+  Jumpheight: 4000
+  currentPlayerobject: {fileID: 0}

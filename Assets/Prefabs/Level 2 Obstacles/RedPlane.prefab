@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4259390529160160877}
   - component: {fileID: 4259390529160160866}
   - component: {fileID: 8911014592599858109}
+  - component: {fileID: 440221606950466741}
   m_Layer: 0
   m_Name: RedPlane
   m_TagString: Untagged
@@ -129,3 +130,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.6, y: 0.85}
   m_EdgeRadius: 0
+--- !u!114 &440221606950466741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4259390529160160867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3922f3b060adfd3419290ebfe353312e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 0}
+  speed: 1

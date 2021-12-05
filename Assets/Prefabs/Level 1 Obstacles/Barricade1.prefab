@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 1368235583396882919}
   - component: {fileID: 6827175430791468153}
   - component: {fileID: 1623556334093639749}
+  - component: {fileID: 3884201106834240735}
   m_Layer: 0
   m_Name: Barricade1
   m_TagString: Untagged
@@ -129,3 +130,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.55, y: 2.5}
   m_EdgeRadius: 0
+--- !u!114 &3884201106834240735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3989168133981804667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90199e32fefbfc2499fdf4be7197a5b3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
