@@ -11,6 +11,9 @@ TextureImporter:
   - first:
       213: -2660654066873172363
     second: GhostFace_Attcking_1
+  - first:
+      213: -142859114357918736
+    second: GhostFace_Attcking_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -129,7 +132,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 320
-        width: 171
+        width: 170
         height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -148,8 +151,8 @@ TextureImporter:
       name: GhostFace_Attcking_2
       rect:
         serializedVersion: 2
-        x: 170
-        y: 320
+        x: 0
+        y: 0
         width: 170
         height: 320
       alignment: 0
@@ -169,8 +172,8 @@ TextureImporter:
       name: GhostFace_Attcking_1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 170
+        y: 320
         width: 170
         height: 320
       alignment: 0
@@ -182,6 +185,27 @@ TextureImporter:
       bones: []
       spriteID: 57e73d11935731bd0800000000000000
       internalID: -2660654066873172363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: GhostFace_Attcking_3
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 0
+        width: 170
+        height: 320
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3f4c37466740ef0800000000000000
+      internalID: -142859114357918736
       vertices: []
       indices: 
       edges: []
