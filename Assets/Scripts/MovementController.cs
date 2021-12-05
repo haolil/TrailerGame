@@ -12,9 +12,9 @@ public class MovementController : MonoBehaviour
 
     private Rigidbody2D rb;
 
-    private bool activeCharactercar = false;
-    private bool activeCharacterkong = false;
-    private bool activeCharacterkiller = false;
+    public bool activeCharactercar = false;
+    public bool activeCharacterkong = false;
+    public bool activeCharacterkiller = false;
     private bool facingRight = true;
     private float vertMovementdirection = 0;
     private float horiMovementdirection = 0;

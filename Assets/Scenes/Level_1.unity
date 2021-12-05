@@ -3766,7 +3766,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -2.3565054}
+  m_Offset: {x: 0, y: -3.4300003}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -3777,7 +3777,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 9.6, y: 2.1469898}
+  m_Size: {x: 9.6, y: 0.0001}
   m_EdgeRadius: 0
 --- !u!212 &996320085
 SpriteRenderer:
@@ -4471,7 +4471,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1298215186}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.43, y: 1.43, z: -30.119984}
+  m_LocalPosition: {x: -2.14, y: 1.43, z: -30.119984}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1970781551}
@@ -4486,6 +4486,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 25
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1315849744 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5952475772114225660, guid: efd0b6a235382514a98a8df9593b7969, type: 3}
+  m_PrefabInstance: {fileID: 138294550972531362}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1315849749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1315849744}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24e70ee39610a3a4a90989057da5d425, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vertMovespeed: 5
+  horiMovespeed: 5
+  Jumpheight: 4000
+  currentPlayerobject: {fileID: 1315849744}
+  activeCharactercar: 0
+  activeCharacterkong: 0
+  activeCharacterkiller: 0
 --- !u!1 &1399291376
 GameObject:
   m_ObjectHideFlags: 0
@@ -4874,8 +4898,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 22.378567, y: 2.466601, z: 0.2}
-  m_Center: {x: 5.589296, y: -2.7676766, z: 0}
+  m_Size: {x: 22.378565, y: 0, z: 0.2}
+  m_Center: {x: 5.589296, y: -4.000977, z: 0}
 --- !u!212 &1498941646
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5057,7 +5081,7 @@ GameObject:
   - component: {fileID: 1595702389}
   - component: {fileID: 1595702388}
   m_Layer: 5
-  m_Name: CutainUI
+  m_Name: CurtainUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6648,8 +6672,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 22.378567, y: 2.466601, z: 0.2}
-  m_Center: {x: 5.589296, y: -2.7676766, z: 0}
+  m_Size: {x: 22.378565, y: 0, z: 0.2}
+  m_Center: {x: 5.589296, y: -4.000977, z: 0}
 --- !u!212 &1941724772
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7459,7 +7483,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5952475772114225660, guid: efd0b6a235382514a98a8df9593b7969, type: 3}
       propertyPath: m_Name
-      value: PlayerCar
+      value: car
       objectReference: {fileID: 0}
     - target: {fileID: 7244599283867622635, guid: efd0b6a235382514a98a8df9593b7969, type: 3}
       propertyPath: m_RootOrder
