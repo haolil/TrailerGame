@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5668655276248442565}
   - component: {fileID: 3151199181325804487}
   - component: {fileID: 932269178117780331}
+  - component: {fileID: 4618219061623672510}
   m_Layer: 0
   m_Name: Couch
   m_TagString: Untagged
@@ -96,3 +97,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
+--- !u!114 &4618219061623672510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7798874965786359531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e971e187b0ff043891cc9e7d3b5e3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 0.5
+  killTimer: 10

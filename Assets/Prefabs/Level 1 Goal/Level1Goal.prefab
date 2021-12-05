@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8702943913451404382}
   - component: {fileID: 8702943913451404385}
   - component: {fileID: 2448070669856179564}
+  - component: {fileID: 2407297597774704925}
   m_Layer: 0
   m_Name: Level1Goal
   m_TagString: Untagged
@@ -123,3 +124,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 1
+--- !u!114 &2407297597774704925
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8702943913451404384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e971e187b0ff043891cc9e7d3b5e3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 0.5
+  killTimer: 10
