@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: 4cb31578bb4254241aa1c46534e34d70
+guid: dda0e6bd617131e4f9b66a0ef4be7ed5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8281871168519457195
-    second: Kong ClimbingBackButtyNEW_0
+      213: 6964780506285369415
+    second: Kong ClimbingBackButty (2)_0
   - first:
-      213: 7261237756493324010
-    second: Kong ClimbingBackButtyNEW_1
+      213: -6378041834681937325
+    second: Kong ClimbingBackButty (2)_1
   - first:
-      213: 2068826835016663507
-    second: Kong ClimbingBackButtyNEW_2
+      213: -4716233080659127014
+    second: Kong ClimbingBackButty (2)_2
   - first:
-      213: -507790041853497066
-    second: Kong ClimbingBackButtyNEW_3
+      213: 4420537808964685713
+    second: Kong ClimbingBackButty (2)_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -127,13 +127,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kong ClimbingBackButtyNEW_0
+      name: Kong ClimbingBackButty (2)_0
       rect:
         serializedVersion: 2
-        x: 108
-        y: 384
-        width: 162
-        height: 210
+        x: 180
+        y: 640
+        width: 270
+        height: 350
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,20 +141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ba9c623d2fd1fe270800000000000000
-      internalID: 8281871168519457195
+      spriteID: 74864bf28fed7a060800000000000000
+      internalID: 6964780506285369415
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kong ClimbingBackButtyNEW_1
+      name: Kong ClimbingBackButty (2)_1
       rect:
         serializedVersion: 2
-        x: 450
-        y: 384
-        width: 204
-        height: 192
+        x: 750
+        y: 640
+        width: 340
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aee5071944915c460800000000000000
-      internalID: 7261237756493324010
+      spriteID: 352d3316eb4ac77a0800000000000000
+      internalID: -6378041834681937325
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kong ClimbingBackButtyNEW_2
+      name: Kong ClimbingBackButty (2)_2
       rect:
         serializedVersion: 2
-        x: 60
+        x: 100
         y: 0
-        width: 210
-        height: 192
+        width: 350
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,20 +183,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3d1c6fa9b03f5bc10800000000000000
-      internalID: 2068826835016663507
+      spriteID: a15dd5530039c8eb0800000000000000
+      internalID: -4716233080659127014
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kong ClimbingBackButtyNEW_3
+      name: Kong ClimbingBackButty (2)_3
       rect:
         serializedVersion: 2
-        x: 492
+        x: 820
         y: 0
-        width: 162
-        height: 192
+        width: 270
+        height: 320
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,8 +204,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 61177d6b5a7f3f8f0800000000000000
-      internalID: -507790041853497066
+      spriteID: 19f068b57b7e85d30800000000000000
+      internalID: 4420537808964685713
       vertices: []
       indices: 
       edges: []
