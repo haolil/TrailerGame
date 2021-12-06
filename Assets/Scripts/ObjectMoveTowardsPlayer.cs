@@ -9,7 +9,7 @@ public class ObjectMoveTowardsPlayer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        player = GameObject.Find("kong");
     }
 
     // Update is called once per frame
