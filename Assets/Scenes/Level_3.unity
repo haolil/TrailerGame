@@ -287,7 +287,7 @@ RectTransform:
   m_Children:
   - {fileID: 2132887740}
   m_Father: {fileID: 1551465219}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -301,7 +301,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 89023106}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
@@ -586,7 +586,7 @@ RectTransform:
   - {fileID: 209562525}
   - {fileID: 1460432716}
   m_Father: {fileID: 1551465219}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -663,7 +663,7 @@ RectTransform:
   m_Children:
   - {fileID: 941395321}
   m_Father: {fileID: 1551465219}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -1486,7 +1486,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 443772546321638123, guid: 35d032e7de38f5645816105c5b3ca3ae, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 443772546321638123, guid: 35d032e7de38f5645816105c5b3ca3ae, type: 3}
       propertyPath: m_AnchorMax.x
@@ -1993,7 +1993,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1551465219}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -2267,11 +2267,11 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
+  - {fileID: 619936892}
   - {fileID: 1506256513}
   - {fileID: 1308572134}
   - {fileID: 89023107}
   - {fileID: 630040741}
-  - {fileID: 619936892}
   - {fileID: 1430324568}
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -2690,7 +2690,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2132887740
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2817,6 +2817,7 @@ GameObject:
   - component: {fileID: 2135297134}
   - component: {fileID: 2135297133}
   - component: {fileID: 2135297132}
+  - component: {fileID: 2135297136}
   m_Layer: 0
   m_Name: Victim
   m_TagString: Untagged
@@ -2834,7 +2835,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -2934,6 +2935,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2135297136
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2135297131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e971e187b0ff043891cc9e7d3b5e3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 0
+  killTimer: 100
+  isFinalObject: 1
+  winUI: {fileID: 0}
 --- !u!1001 &6938123871258245419
 PrefabInstance:
   m_ObjectHideFlags: 0
