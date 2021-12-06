@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
+    public GameObject endUI;
     public Image currentHealth;
     public float maxHealth;
     public float playerHealth;
@@ -21,7 +22,7 @@ public class PlayerHealth : MonoBehaviour
 
         if(playerHealth == 0)
         {
-
+            endUI.SetActive(true);
         }
 
     }

@@ -6,17 +6,31 @@ public class DealDamage : MonoBehaviour
 {
     public float damage;
     public int killTimer;
+    public bool isFinalObject;
+    public GameObject winUI;
 
     public void Start()
     {
         StartCoroutine(killObject());
+        if (isFinalObject)
+        {
+            winUI = GameObject.Find("WinUI");
+        }
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.transform.GetComponent<PlayerHealth>())
         {
-            collision.transform.GetComponent<PlayerHealth>().playerHealth -= damage;
-            Destroy(this.gameObject);
+            if (isFinalObject)
+            {
+                winUI.SetActive(true);
+            }
+            else
+            {
+                collision.transform.GetComponent<PlayerHealth>().playerHealth -= damage;
+                Destroy(this.gameObject);
+            }
+
         }
 
     }

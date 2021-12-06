@@ -13,8 +13,8 @@ GameObject:
   - component: {fileID: 8238637412596617913}
   - component: {fileID: 3350832227303332232}
   - component: {fileID: 1241960110249213684}
-  - component: {fileID: 7868241040326794047}
   - component: {fileID: 3608387470018069970}
+  - component: {fileID: -8121678500127164167}
   m_Layer: 0
   m_Name: Blimp
   m_TagString: Untagged
@@ -146,20 +146,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 4588874081161597426, guid: 44054325bfccefc45a041a27784cd905, type: 3}
   speed: 1
---- !u!114 &7868241040326794047
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8238637412596617912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37e971e187b0ff043891cc9e7d3b5e3f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 0.5
-  killTimer: 10
 --- !u!50 &3608387470018069970
 Rigidbody2D:
   serializedVersion: 4
@@ -181,3 +167,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-8121678500127164167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8238637412596617912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37e971e187b0ff043891cc9e7d3b5e3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 0
+  killTimer: 100
