@@ -13,7 +13,7 @@ public class VictimScript : MonoBehaviour
         {
             winUI.GetComponent<Image>().enabled = true;
             winUI.transform.GetChild(0).gameObject.SetActive(true);
-            Time.timeScale = 0f;
+            //Time.timeScale = 0f;
         }
 
         if(collision.name == "Level3Goal(Clone)")

@@ -35,7 +35,8 @@ public class LoadScene : MonoBehaviour
     
     public void TheEnd()
     {
+        UIButton.SetActive(true);
         anim.Play("CuratainClose");
-        UIButton.SetActive(true)
-;    }
+        
+    }
 }
