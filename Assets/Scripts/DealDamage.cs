@@ -15,7 +15,7 @@ public class DealDamage : MonoBehaviour
         if (isFinalObject)
         {
             winUI = GameObject.Find("WinUI");
-            Time.timeScale = 0f;
+
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
@@ -25,11 +25,13 @@ public class DealDamage : MonoBehaviour
             if (isFinalObject)
             {
                 winUI.SetActive(true);
+                Time.timeScale = 0f;
             }
             else
             {
                 collision.transform.GetComponent<PlayerHealth>().playerHealth -= damage;
-                Destroy(this.gameObject);
+                this.transform.GetComponent<Animator>().Play("Explode");
+                //Destroy(this.gameObject);
             }
 
         }

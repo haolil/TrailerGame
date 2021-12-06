@@ -141,6 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6436548a1a68e74eb00f501097b19b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  endUI: {fileID: 0}
   currentHealth: {fileID: 0}
   maxHealth: 0
   playerHealth: 0
@@ -213,6 +214,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6092996331443347572}
   - component: {fileID: 4228623042949586674}
+  - component: {fileID: 8125449056512193193}
   m_Layer: 0
   m_Name: AttackCollider
   m_TagString: Untagged
@@ -260,3 +262,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 3.78}
   m_EdgeRadius: 0
+--- !u!114 &8125449056512193193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5540749326478018479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d9d7595022c6904786f190eba7b1004, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
