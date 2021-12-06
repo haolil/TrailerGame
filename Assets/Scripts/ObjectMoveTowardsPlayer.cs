@@ -19,7 +19,6 @@ public class ObjectMoveTowardsPlayer : MonoBehaviour
         if(transform.position.x < player.transform.position.x)
         {
             transform.right = (player.transform.position - transform.position);
-            transform.localScale *= -1;
         }
         else
         {
