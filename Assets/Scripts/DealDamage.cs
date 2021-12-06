@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class DealDamage : MonoBehaviour
 {
@@ -9,22 +10,22 @@ public class DealDamage : MonoBehaviour
     public bool isFinalObject;
     public GameObject winUI;
 
-    public void Start()
+    private void OnEnable()
     {
         StartCoroutine(killObject());
         if (isFinalObject)
         {
             winUI = GameObject.Find("WinUI");
-
         }
     }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.transform.GetComponent<PlayerHealth>())
         {
             if (isFinalObject)
             {
-                winUI.SetActive(true);
+                winUI.GetComponent<Image>().enabled = true;
                 Time.timeScale = 0f;
             }
             else

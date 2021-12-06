@@ -5,6 +5,10 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    public void Start()
+    {
+        playBGM();
+    }
     public void PlayGame ()
     {
         playClick();
@@ -26,4 +30,11 @@ public class MainMenu : MonoBehaviour
     {
         FindObjectOfType<AudioManager>().Play("Menu_Back_Click");
     }
+
+    public void playBGM()
+    {
+        FindObjectOfType<AudioManager>().Play("Menu_BGM");
+
+    }
+
 }
