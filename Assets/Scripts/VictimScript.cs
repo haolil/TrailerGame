@@ -16,7 +16,7 @@ public class VictimScript : MonoBehaviour
             Time.timeScale = 0f;
         }
 
-        if(collision.name == "Level3Goal")
+        if(collision.name == "Level3Goal(Clone)")
         {
             losuUI.SetActive(true);
         }
