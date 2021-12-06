@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3350832227303332232}
   - component: {fileID: 1241960110249213684}
   - component: {fileID: 7868241040326794047}
+  - component: {fileID: 3608387470018069970}
   m_Layer: 0
   m_Name: Blimp
   m_TagString: Untagged
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 6
   m_Sprite: {fileID: 21300000, guid: 392f8f197d44e0f40a33ad5bbd09174d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -143,7 +144,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3922f3b060adfd3419290ebfe353312e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 4588874081161597426, guid: 44054325bfccefc45a041a27784cd905, type: 3}
   speed: 1
 --- !u!114 &7868241040326794047
 MonoBehaviour:
@@ -159,3 +160,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 0.5
   killTimer: 10
+--- !u!50 &3608387470018069970
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8238637412596617912}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0

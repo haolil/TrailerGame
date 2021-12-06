@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 712199831019036341}
   - component: {fileID: 8527283284807055163}
   - component: {fileID: 9144800154941623086}
+  - component: {fileID: 8739718812835394083}
   m_Layer: 0
   m_Name: BiPlane1
   m_TagString: Untagged
@@ -74,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: -8002306113116802775, guid: ef8c35cf7bfdaae48811eae3a3f759f0, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -159,3 +160,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 0.5
   killTimer: 10
+--- !u!50 &8739718812835394083
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1308439502886808283}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
