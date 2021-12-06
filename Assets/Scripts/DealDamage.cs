@@ -26,6 +26,7 @@ public class DealDamage : MonoBehaviour
             if (isFinalObject)
             {
                 winUI.GetComponent<Image>().enabled = true;
+                winUI.transform.GetChild(0).gameObject.SetActive(true);
                 Time.timeScale = 0f;
             }
             else
