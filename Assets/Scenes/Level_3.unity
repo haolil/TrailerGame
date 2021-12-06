@@ -1682,9 +1682,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: killer
       objectReference: {fileID: 0}
+    - target: {fileID: 6938123871797564844, guid: 7916133f1ac57114e8736a77e249aacd, type: 3}
+      propertyPath: kongAnimator
+      value: 
+      objectReference: {fileID: 6938123871258245420}
     - target: {fileID: 6938123871797564847, guid: 7916133f1ac57114e8736a77e249aacd, type: 3}
       propertyPath: currentHealth
       value: 
       objectReference: {fileID: 1308572133}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7916133f1ac57114e8736a77e249aacd, type: 3}
+--- !u!95 &6938123871258245420 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6938123871797564835, guid: 7916133f1ac57114e8736a77e249aacd, type: 3}
+  m_PrefabInstance: {fileID: 6938123871258245419}
+  m_PrefabAsset: {fileID: 0}

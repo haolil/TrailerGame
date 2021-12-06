@@ -8673,6 +8673,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 247256121184950593, guid: efd0b6a235382514a98a8df9593b7969, type: 3}
+      propertyPath: kongAnimator
+      value: 
+      objectReference: {fileID: 138294550972531363}
     - target: {fileID: 4289080678089750796, guid: efd0b6a235382514a98a8df9593b7969, type: 3}
       propertyPath: currentHealth
       value: 
@@ -8731,3 +8735,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: efd0b6a235382514a98a8df9593b7969, type: 3}
+--- !u!95 &138294550972531363 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 6352840002411823224, guid: efd0b6a235382514a98a8df9593b7969, type: 3}
+  m_PrefabInstance: {fileID: 138294550972531362}
+  m_PrefabAsset: {fileID: 0}
