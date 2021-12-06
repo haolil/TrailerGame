@@ -15,6 +15,7 @@ public class DealDamage : MonoBehaviour
         if (isFinalObject)
         {
             winUI = GameObject.Find("WinUI");
+            Time.timeScale = 0f;
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
