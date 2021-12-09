@@ -23,7 +23,7 @@ public class PlayerHealth : MonoBehaviour
         if(playerHealth == 0)
         {
             endUI.SetActive(true);
-            Time.timeScale = 0f;
+            //Time.timeScale = 0f;
 
         }
 
